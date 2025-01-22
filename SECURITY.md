@@ -1,0 +1,1 @@
+For all inquiries regarding data privacy, the security of our software applications, and any other cybersecurity concerns or identified vulnerabilities, please contact us via messaging our LinkedIn page at https://www.linkedin.com/company/vexergy 
