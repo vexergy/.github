@@ -3,14 +3,14 @@
 ### Overview
 This repo provides useful resources for members of the Vexergy Developer community as well as those who use our software and services. **_Welcome!_**
 
-### [Licence](./LICENSE)
+### [License](./LICENSE)
 All open source code released publically will be licensed appropriately (typically under the MIT License) as determined by the nature and purpose of the code itself.
 
 ### Security
 Please see the [SECURITY.md](./SECURITY.md) file for more information regarding our organization's security policy.
 
 ### Down Detection
-In order to check the status of our websites and applications, provided in this repo is a simple script to verify if our systems are operational.  
+In order to check the status of our websites and applications, provided in this repo is a simple script to verify if all our systems are online and operational.  
 
 **Usage:**
 * Clone this GitHub repository to your local computer.
