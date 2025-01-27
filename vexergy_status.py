@@ -1,4 +1,5 @@
 import os
+import time
 import requests
 
 os.system("")
@@ -39,7 +40,43 @@ def vexergy_website_status(base_url):
         print('--------------------------------')
         print(style.GREEN + 'All Systems Operational!\n' + style.RESET)
 
+print('\nVexergy Down Detector & Website Monitor:')
+print('----------------------------------------')
+
+url = 'https://vexergy.com'
+
+response = requests.get(url)
+initial_content = response.text
+
+def monitor_website(iterations, interval):
+    global initial_content
+    for i in range(iterations):
+        try:
+            response = requests.get(url)
+            current_content = response.text
+            print("")
+            
+            if current_content != initial_content:
+                print("Change Detected!")
+                initial_content = current_content
+        
+        except requests.exceptions.RequestException as e:
+            print(style.RED + f"Error while monitoring {url}: {e}" + style.RESET)
+
+        print(style.YELLOW + f"Monitoring {url}... Iteration {i+1}/{iterations}" + style.RESET)
+        
+        time.sleep(interval)
+    
+    print("\nMonitoring complete after", iterations, "iterations.\n")
+
 print("\nChecking 'vexergy.com' Status...")
 print('--------------------------------')
 
 vexergy_website_status('vexergy.com')
+
+iterations = 3 # Frequency of website monitoring checks
+interval = 10 # Time interval between checks (seconds)
+
+print('Monitoring Website Changes:')
+print('--------------------------------')
+monitor_website(iterations, interval)
