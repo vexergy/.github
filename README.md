@@ -1,13 +1,13 @@
 # .github
 
 ### Overview
-This repo provides useful resources for members of the Vexergy Developer community as well as those who use our software and services. **_Welcome!_**
+This repo provides useful resources for members of the Vexergy community and all who use our software and services. **_Welcome!_**
 
 ### Support
 For support services related to any of our products and projects, please view the [SUPPORT.md](./SUPPORT.md) file to learn more about our support policy.
 
-### [License](./LICENSE)
-All open source code released publicly will be licensed appropriately (typically under the MIT License) as determined by the nature and purpose of the code itself.
+### License
+All open source code released publicly will be licensed appropriately (typically under the MIT [License](./LICENSE)) as determined by the nature and purpose of the code itself.
 
 ### Security
 Please see the [SECURITY.md](./SECURITY.md) file for more information regarding our organization's security policy.
