@@ -1,7 +1,7 @@
 # .github
 
 ### Overview
-This repo provides useful resources for members of the Vexergy community and all who use our software and services. **_Welcome!_**
+This repo provides useful resources for members of the Vexergy™ Community and all who use our software and services. **_Welcome!_**
 
 ### Support
 For support services related to any of our products and projects, please view the [SUPPORT.md](./SUPPORT.md) file to learn more about our support policy.

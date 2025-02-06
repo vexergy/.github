@@ -23,7 +23,7 @@ def check_url(url):
         print(style.RED + f'{url} is down! (Error: {e})' + style.RESET)
         return False
 
-def vexergy_website_status(base_url):
+def website_status(base_url):
     variants = [
         f"http://{base_url}",
         f"https://{base_url}",
@@ -72,11 +72,12 @@ def monitor_website(iterations, interval):
 print("\nChecking 'vexergy.com' Status...")
 print('--------------------------------')
 
-vexergy_website_status('vexergy.com')
+website_status('vexergy.com')
 
 iterations = 3 # Frequency of website monitoring checks
 interval = 10 # Time interval between checks (seconds)
 
 print('Monitoring Website Changes:')
 print('--------------------------------')
+
 monitor_website(iterations, interval)
